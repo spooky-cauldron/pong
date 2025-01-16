@@ -9,5 +9,3 @@ void addUpdateFunc(UpdateFunc f);
 void setPos(int x, int y);
 extern void GoLogicLoop();
 extern void GoRenderLoop();
-// int ScreenWidth();
-// int ScreenHeight();

@@ -1,6 +1,5 @@
 package main
 
-// //#cgo CFLAGS:-framework CoreVideo -framework IOKit -framework Cocoa -framework GLUT -framework OpenGL
 // #cgo LDFLAGS: -lraylib
 // #include "raylib.h"
 // #include "ray.h"

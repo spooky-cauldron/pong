@@ -8,10 +8,6 @@ type Vec2 struct {
 	Y int
 }
 
-// type Collider interface {
-// 	GetColliderInfo() ColliderInfo
-// }
-
 type Collider struct {
 	X         int
 	Y         int
@@ -28,7 +24,6 @@ func DeltaTime() float64 {
 	return float64(C.GetFrameTime())
 }
 
-// func CheckCollision(ball *Ball, wall *Wall) {
 func CheckCollision(ball *Ball, collider Collider) {
 	center := C.Vector2{x: C.float(ball.X), y: C.float(ball.Y)}
 	rect := C.Rectangle{

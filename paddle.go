@@ -5,11 +5,6 @@ import "C"
 
 type Paddle struct {
 	Collider
-	// X         int
-	// Y         int
-	// Height    int
-	// Width     int
-	// BounceDir Vec2
 	Speed int
 }
 

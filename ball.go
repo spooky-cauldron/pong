@@ -11,14 +11,7 @@ type Ball struct {
 	Radius int
 }
 
-// func (b *Ball) Move(x int, y int) {
-// 	b.X = x
-// 	b.Y = y
-// }
-
 func (b *Ball) Move() {
-	// fmt.Println(DeltaTime())
-	// fmt.Println(float64(b.Vx) * DeltaTime())
 	b.X += int(float64(b.Vx) * DeltaTime())
 	b.Y += int(float64(b.Vy) * DeltaTime())
 }
